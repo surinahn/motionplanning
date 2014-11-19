@@ -1,0 +1,13 @@
+#First, we specify points
+#The values after 'p:' represent the following: 
+# [name] [x coord] [y coord] 
+p: p1 100 100
+p: p2 200 100
+p: p3 300 200
+p: p4 200 200
+p: p5 400 350
+p: p6 500 450
+p: p7 300 450
+#Now we define obstacles
+o: p1 p2 p3 p4
+o: p5 p6 p7 
